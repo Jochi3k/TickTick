@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Engine.AnimatedGameObject" Collapsed="true">
+    <Position X="7.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAgEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Animation\AnimatedGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.Animation" Collapsed="true">
+    <Position X="5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAAAAAAAAAAAAAAAAAAAACAAgAAAAEAAQCA=</HashCode>
+      <FileName>Animation\Animation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.CollisionDetection" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>CollisionDetection\CollisionDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.ExtendedGameWithLevels" Collapsed="true">
+    <Position X="8" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAACAgAgCgAAACAAAgAAADAEAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Levels\ExtendedGameWithLevels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.AssetManager" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAADAg=</HashCode>
+      <FileName>AssetManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.ExtendedGame" Collapsed="true">
+    <Position X="8" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAQECQAAAAAgIAAIAAICAAAAACBAyAAAAAAAAAAAQ=</HashCode>
+      <FileName>ExtendedGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.GameObject" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAACCAACABgAAAAAAQAAAAAAAAAAIAAQAAAAAAAA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Engine.GameObjectList" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAFgQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObjectList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.GameState" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.GameStateManager" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAQAAABgAAAAAAAAIUAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>GameStateManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Engine.InputHelper" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAgAAAAgAAAAAIAAUBAAAAAAABIAAAAABBQAAA=</HashCode>
+      <FileName>InputHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.SpriteGameObject" Collapsed="true">
+    <Position X="10" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAQgAAAAAAAEAAADAgAAAAAAQAIAgAAAA=</HashCode>
+      <FileName>SpriteGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.SpriteSheet" Collapsed="true">
+    <Position X="5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAABIAAAgAAAAAAAEAAgBAABCAAAAQAIBAIAkE=</HashCode>
+      <FileName>SpriteSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.TextGameObject" Collapsed="true">
+    <Position X="14.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAACgAAAAAAAAAgAAAAAAAAAAAAqAAAAAA=</HashCode>
+      <FileName>TextGameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.VisibilityTimer" Collapsed="true">
+    <Position X="16.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>VisibilityTimer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.UI.LevelButton" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAEAAAAAhAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Levels\LevelButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.UI.Button" Collapsed="true">
+    <Position X="11" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>UI\Button.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.UI.Slider" Collapsed="true">
+    <Position X="5.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAGAABAACCAAAAAIAEAAAEAAAKAAAAAoAEACAAA=</HashCode>
+      <FileName>UI\Slider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Engine.UI.Switch" Collapsed="true">
+    <Position X="10" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAABAAAAAAAAAAAAAAAAAAAAAAAAgAAAAI=</HashCode>
+      <FileName>UI\Switch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Engine.Circle" Collapsed="true">
+    <Position X="19.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>CollisionDetection\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="Engine.IPlayingState" Collapsed="true">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\IPlayingState.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Engine.IGameLoopObject" Collapsed="true">
+    <Position X="19.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IGameLoopObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Engine.LevelStatus" Collapsed="true">
+    <Position X="19.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAABAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Levels\LevelStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

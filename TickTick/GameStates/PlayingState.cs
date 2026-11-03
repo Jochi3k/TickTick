@@ -3,6 +3,7 @@ using Engine.UI;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using System;
 
 class PlayingState : GameState, IPlayingState
 {
@@ -15,6 +16,7 @@ class PlayingState : GameState, IPlayingState
         // add a "quit" button
         quitButton = new Button("Sprites/UI/spr_button_quit", 1);
         quitButton.LocalPosition = new Vector2(1290, 20);
+        quitButton.ScreenFixed = true;
         gameObjects.AddChild(quitButton);
 
         // add overlay images
@@ -27,6 +29,7 @@ class PlayingState : GameState, IPlayingState
         SpriteGameObject result = new SpriteGameObject(spriteName, 1);
         result.SetOriginToCenter();
         result.LocalPosition = new Vector2(720, 412);
+        result.ScreenFixed = true;
         gameObjects.AddChild(result);
         return result;
     }
@@ -69,6 +72,25 @@ class PlayingState : GameState, IPlayingState
         if (level != null)
             level.Update(gameTime);
 
+        Vector2 playerPosition = level.Player.GlobalPosition;
+
+        int cameraX = (int)playerPosition.X
+                      - ExtendedGame.Camera.Bounds.Width / 2;
+
+        int cameraY = (int)playerPosition.Y
+                      - ExtendedGame.Camera.Bounds.Height / 2;
+
+        cameraX = Math.Clamp(cameraX, 0,
+            Math.Max(0, level.BoundingBox.Width
+                        - ExtendedGame.Camera.Bounds.Width));
+
+        cameraY = Math.Clamp(cameraY, 0,
+            Math.Max(0, level.BoundingBox.Height
+                        - ExtendedGame.Camera.Bounds.Height));
+
+        ExtendedGame.Camera.MoveTo( new Vector2(cameraX, cameraY));
+
+
         // show or hide the "game over" image
         gameOverOverlay.Visible = !level.Player.IsAlive;
     }
@@ -83,6 +105,8 @@ class PlayingState : GameState, IPlayingState
     public void LoadLevel(int levelIndex)
     {
         level = new Level(levelIndex, ExtendedGame.ContentRootDirectory + "/Levels/level" + levelIndex + ".txt");
+
+        ExtendedGame.Camera.MoveTo(Vector2.Zero);
 
         // hide the overlay images
         completedOverlay.Visible = false;

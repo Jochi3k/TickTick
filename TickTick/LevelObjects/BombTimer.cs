@@ -15,10 +15,12 @@ class BombTimer : GameObjectList
 
     public BombTimer()
     {
+        ScreenFixed = true;
         localPosition = new Vector2(20, 20);
         
         // add a background image
         SpriteGameObject background = new SpriteGameObject("Sprites/UI/spr_timer", TickTick.Depth_UIBackground);
+        background.ScreenFixed = true;
         AddChild(background);
 
         // add a text

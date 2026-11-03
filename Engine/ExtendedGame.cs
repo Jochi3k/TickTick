@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using System;
+using System.Net.NetworkInformation;
+using System.Runtime.CompilerServices;
 
 namespace Engine
 {
@@ -44,6 +46,10 @@ namespace Engine
         /// </summary>
         public static GameStateManager GameStateManager { get; private set; }
 
+        /// <summary>
+        /// An object for showing the visible part of the world
+        /// </summary>
+        public static Camera Camera { get; set; }
         public static string ContentRootDirectory { get { return "Content"; } }
 
         /// <summary>

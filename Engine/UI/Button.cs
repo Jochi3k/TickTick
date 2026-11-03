@@ -1,4 +1,7 @@
-﻿namespace Engine.UI
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
+
+namespace Engine.UI
 {
     /// <summary>
     /// A class that can represent a UI button in the game.
@@ -24,6 +27,13 @@
         {
             Pressed = Visible && inputHelper.MouseLeftButtonPressed()
                 && BoundingBox.Contains(inputHelper.MousePositionWorld);
+        }
+
+        public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        {
+            if (!Visible)
+                return;
+            sprite.Draw(spriteBatch, GlobalPosition, Origin);
         }
 
         public override void Reset()

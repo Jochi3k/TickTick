@@ -41,6 +41,7 @@ partial class Level : GameObjectList
     {
         // - background box
         SpriteGameObject frame = new SpriteGameObject("Sprites/UI/spr_frame_hint", TickTick.Depth_UIBackground);
+        frame.ScreenFixed = true;
         frame.SetOriginToCenter();
         frame.LocalPosition = new Vector2(720, 50);
         AddChild(frame);

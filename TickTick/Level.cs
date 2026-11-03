@@ -26,6 +26,7 @@ partial class Level : GameObjectList
         // load the background
         GameObjectList backgrounds = new GameObjectList();
         SpriteGameObject backgroundSky = new SpriteGameObject("Sprites/Backgrounds/spr_sky", TickTick.Depth_Background);
+        backgroundSky.ScreenFixed = true;
         backgroundSky.LocalPosition = new Vector2(0, 825 - backgroundSky.Height);
         backgrounds.AddChild(backgroundSky);
 

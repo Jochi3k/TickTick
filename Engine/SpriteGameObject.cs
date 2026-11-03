@@ -59,9 +59,19 @@ namespace Engine
             if (!Visible)
                 return;
 
+            Camera camera = ExtendedGame.Camera;
+
+            // check if the sprite is in the camera bounds
+            if (!ScreenFixed && camera != null && !BoundingBox.Intersects(camera.Bounds))
+                return;
+
             // draw the sprite at its *global* position in the game world
-            if (sprite != null)
-                sprite.Draw(spriteBatch, GlobalPosition, Origin);
+            Vector2 drawPosition = GlobalPosition;
+
+            if (ExtendedGame.Camera != null && !ScreenFixed)
+                drawPosition -= ExtendedGame.Camera.Position;
+
+            sprite.Draw(spriteBatch, drawPosition, Origin);
         }
 
         /// <summary>

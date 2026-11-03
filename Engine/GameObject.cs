@@ -21,6 +21,12 @@ namespace Engine
         protected Vector2 velocity;
 
         /// <summary>
+        /// A boolean to choose what to move with the camera and what not
+        /// </summary>
+        public bool ScreenFixed { get; set; } = false;
+
+
+        /// <summary>
         /// Whether or not this game object is currently visible.
         /// </summary>
         public bool Visible { get; set; }
