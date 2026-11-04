@@ -191,6 +191,13 @@ partial class Level : GameObjectList
         AddChild(enemy);
     }
 
+    void LoadMatch(int x, int y)
+    {
+        // create the water drop object;  place it around the center of the tile
+        Vector2 pos = GetCellPosition(x, y) + new Vector2(TileWidth / 2, TileHeight / 3);
+
+    }
+
     Vector2 GetCellBottomCenter(int x, int y)
     {
         return GetCellPosition(x, y + 1) + new Vector2(TileWidth / 2, 0);

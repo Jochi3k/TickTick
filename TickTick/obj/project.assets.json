@@ -118,19 +118,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\joche\\.nuget\\packages\\": {}
+    "C:\\Users\\Joche\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\TickTick.csproj",
+      "projectUniqueName": "C:\\Users\\Joche\\source\\repos\\TickTick\\TickTick\\TickTick.csproj",
       "projectName": "TickTick",
-      "projectPath": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\TickTick.csproj",
-      "packagesPath": "C:\\Users\\joche\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\obj\\",
+      "projectPath": "C:\\Users\\Joche\\source\\repos\\TickTick\\TickTick\\TickTick.csproj",
+      "packagesPath": "C:\\Users\\Joche\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Joche\\source\\repos\\TickTick\\TickTick\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\joche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Joche\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -145,8 +145,8 @@
           "framework": "net6.0",
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\joche\\source\\repos\\TickTick\\Engine\\Engine.csproj": {
-              "projectPath": "C:\\Users\\joche\\source\\repos\\TickTick\\Engine\\Engine.csproj"
+            "C:\\Users\\Joche\\source\\repos\\TickTick\\Engine\\Engine.csproj": {
+              "projectPath": "C:\\Users\\Joche\\source\\repos\\TickTick\\Engine\\Engine.csproj"
             }
           }
         }
@@ -211,7 +211,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
