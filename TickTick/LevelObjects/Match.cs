@@ -30,6 +30,7 @@ class Match : SpriteGameObject
         if (Visible && level.Player.CanCollideWithObjects && HasPixelPreciseCollision(level.Player))
         {
             Visible = false;
+            level.Player.ActivateSpeedBoost();
         }
 
     }

@@ -2,10 +2,13 @@ using Engine;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using System;
+using System.Net.Sockets;
 
 class Player : AnimatedGameObject
 {
     const float walkingSpeed = 400; // Standard walking speed, in game units per second.
+    float SprintMultiplier = 1f;
+    float SprintTimer = 0f;
     const float jumpSpeed = 900; // Lift-off speed when the character jumps.
     const float gravity = 2300; // Strength of the gravity force that pulls the character down.
     const float maxFallSpeed = 1200; // The maximum vertical speed at which the character can fall.
@@ -62,6 +65,8 @@ class Player : AnimatedGameObject
         isGrounded = true;
         standingOnIceTile = standingOnHotTile = false;
 
+        SprintMultiplier = 1f;
+        SprintTimer = 0f;
         IsAlive = true;
         isExploding = false;
         isCelebrating = false;
@@ -76,14 +81,14 @@ class Player : AnimatedGameObject
         if (inputHelper.KeyDown(Keys.Left))
         {
             facingLeft = true;
-            desiredHorizontalSpeed = -walkingSpeed;
+            desiredHorizontalSpeed = -walkingSpeed * SprintMultiplier;
             if (isGrounded)
                 PlayAnimation("run");
         }
         else if (inputHelper.KeyDown(Keys.Right))
         {
             facingLeft = false;
-            desiredHorizontalSpeed = walkingSpeed;
+            desiredHorizontalSpeed = walkingSpeed * SprintMultiplier;
             if (isGrounded)
                 PlayAnimation("run");
         }
@@ -147,6 +152,17 @@ class Player : AnimatedGameObject
 
         base.Update(gameTime);
 
+        if (SprintTimer > 0)
+        {
+            SprintTimer -= (float)gameTime.ElapsedGameTime.TotalSeconds;
+
+            if (SprintTimer <= 0)
+            {
+                SprintTimer = 0;
+                SprintMultiplier = 1f;
+            }
+        }
+
         if (IsAlive)
         {
             // check for collisions with tiles
@@ -188,6 +204,12 @@ class Player : AnimatedGameObject
         velocity.Y += gravity * (float)gameTime.ElapsedGameTime.TotalSeconds;
         if (velocity.Y > maxFallSpeed)
             velocity.Y = maxFallSpeed;
+    }
+
+    public void ActivateSpeedBoost()
+    {
+        SprintMultiplier = 1.5f;
+        SprintTimer = 5f;
     }
 
     // Checks for collisions between the character and the level's tiles, and handles these collisions when needed.

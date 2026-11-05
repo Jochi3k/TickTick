@@ -21,6 +21,7 @@ C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\B
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\Backgrounds\spr_sky.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\Backgrounds\spr_title.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\Flame\spr_flame@9.xnb
+C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\Match.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\Player\spr_celebrate@14.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\Player\spr_die@5.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\Player\spr_explode@5x5.xnb
@@ -52,8 +53,8 @@ C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\U
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\UI\spr_level_unsolved.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\UI\spr_timer.xnb
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\UI\spr_welldone.xnb
-C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Levels\level1.txt
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Levels\level10.txt
+C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Levels\level11.txt
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Levels\level2.txt
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Levels\level3.txt
 C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Levels\level4.txt
@@ -91,3 +92,4 @@ C:\Users\joche\source\repos\TickTick\TickTick\obj\Debug\net6.0\refint\TickTick.d
 C:\Users\joche\source\repos\TickTick\TickTick\obj\Debug\net6.0\TickTick.pdb
 C:\Users\joche\source\repos\TickTick\TickTick\obj\Debug\net6.0\TickTick.genruntimeconfig.cache
 C:\Users\joche\source\repos\TickTick\TickTick\obj\Debug\net6.0\ref\TickTick.dll
+C:\Users\joche\source\repos\TickTick\TickTick\bin\Debug\net6.0\Content\Sprites\LevelObjects\RocketRed\spr_rocketred@3.xnb

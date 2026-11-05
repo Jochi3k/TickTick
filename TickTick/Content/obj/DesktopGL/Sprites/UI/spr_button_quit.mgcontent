@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Joche/source/repos/TickTick/TickTick/Content/Sprites/UI/spr_button_quit.png</SourceFile>
-  <SourceTime>2026-11-03T16:07:41.4226652+01:00</SourceTime>
-  <DestFile>C:/Users/Joche/source/repos/TickTick/TickTick/Content/bin/DesktopGL/Sprites/UI/spr_button_quit.xnb</DestFile>
-  <DestTime>2026-11-04T16:07:53.5484897+01:00</DestTime>
+  <SourceFile>C:/Users/joche/source/repos/TickTick/TickTick/Content/Sprites/UI/spr_button_quit.png</SourceFile>
+  <SourceTime>2022-10-10T09:27:08+02:00</SourceTime>
+  <DestFile>C:/Users/joche/source/repos/TickTick/TickTick/Content/bin/DesktopGL/Sprites/UI/spr_button_quit.xnb</DestFile>
+  <DestTime>2026-11-05T18:26:26.9000177+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

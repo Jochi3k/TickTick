@@ -36,7 +36,18 @@ class Rocket : AnimatedGameObject
     public override void Reset()
     {
         // go back to the starting position
-        LocalPosition = startPosition;
+        localPosition = startPosition;
+    }
+    public void Spawn()
+    {
+        if (sprite.Mirror)
+        {
+            LocalPosition = new Vector2(level.BoundingBox.Right, startPosition.Y) + new Vector2(2 * speed, 0);
+        }
+        else
+        {
+            LocalPosition = new Vector2(level.BoundingBox.Left, startPosition.Y) - new Vector2(2 * speed, 0);
+        }
     }
 
     public override void Update(GameTime gameTime)
@@ -45,12 +56,22 @@ class Rocket : AnimatedGameObject
 
         // if the rocket has left the screen, reset it
         if (sprite.Mirror && BoundingBox.Right < level.BoundingBox.Left)
-            Reset();
+            Spawn();
         else if (!sprite.Mirror && BoundingBox.Left > level.BoundingBox.Right)
-            Reset();
+            Spawn();
 
         // if the rocket touches the player, the player dies
         if (level.Player.CanCollideWithObjects && HasPixelPreciseCollision(level.Player))
-            level.Player.Die();
+        {
+            if(this.GlobalPosition.Y >= level.Player.GlobalPosition.Y)
+            {
+                level.Player.Jump();
+            }
+        else
+            {
+                level.Player.Die();
+            }
+        }
+        
     }
 }

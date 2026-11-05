@@ -1,16 +1,16 @@
 Red tiles are hot: they'll make you explode faster!
 ........W...W.......
 .X....W...W...W....R
-####HHHHHHHHHHHHHH..
+####HHHHHHHHHHHHHHM.
 .......W...W...W....
 R....W...W...W...W..
-..HHHHHHHHHHHHHHHH##
+.MHHHHHHHHHHHHHHHH##
 ....W...W...W.......
 ..W...W...W...W....R
-##HHHHHHHHHHHHHHHH..
+##HHHHHHHHHHHHHHHHM.
 .......W...W...W....
 R....W...W...W...W..
-..HHHHHHHHHHHHHHHH##
+.MHHHHHHHHHHHHHHHH##
 ...W...W...W...W....
 .W...W...W...W....1.
 ####################

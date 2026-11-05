@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using System.Collections.Generic;
 using System.IO;
+using System.Net.Sockets;
 
 partial class Level : GameObjectList
 {
@@ -98,8 +99,12 @@ partial class Level : GameObjectList
             LoadGoal(x, y);
         else if (symbol == 'W')
             LoadWaterDrop(x, y);
+        else if (symbol == 'M')
+            LoadMatch(x, y);
         else if (symbol == 'R')
             LoadRocketEnemy(x, y);
+        else if (symbol == 'P')
+            LoadRocketRedEnemy(x, y);
         else if (symbol == 'T')
             LoadTurtleEnemy(x, y);
         else if (symbol == 'S')
@@ -157,9 +162,23 @@ partial class Level : GameObjectList
         waterDrops.Add(w);
     }
 
+    void LoadMatch(int x, int y)
+    {
+        Vector2 pos = GetCellPosition(x, y)
+            + new Vector2(TileWidth / 2, TileHeight / 3);
+
+        Match match = new Match(this, pos);
+        AddChild(match);
+    }
+
     void LoadRocketEnemy(int x, int y)
     {
         Rocket r = new Rocket(this, GetCellPosition(x, y), x != 0);
+        AddChild(r);
+    }
+    void LoadRocketRedEnemy(int x, int y)
+    {
+        RocketRed r = new RocketRed(this, GetCellPosition(x, y), x != 0);
         AddChild(r);
     }
 
@@ -190,14 +209,6 @@ partial class Level : GameObjectList
 
         AddChild(enemy);
     }
-
-    void LoadMatch(int x, int y)
-    {
-        // create the water drop object;  place it around the center of the tile
-        Vector2 pos = GetCellPosition(x, y) + new Vector2(TileWidth / 2, TileHeight / 3);
-
-    }
-
     Vector2 GetCellBottomCenter(int x, int y)
     {
         return GetCellPosition(x, y + 1) + new Vector2(TileWidth / 2, 0);

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/Joche/source/repos/TickTick/TickTick/Content/Sounds/snd_won.wav</SourceFile>
-  <SourceTime>2026-11-03T16:07:41.2796944+01:00</SourceTime>
-  <DestFile>C:/Users/Joche/source/repos/TickTick/TickTick/Content/bin/DesktopGL/Sounds/snd_won.xnb</DestFile>
-  <DestTime>2026-11-04T16:07:51.4889857+01:00</DestTime>
+  <SourceFile>C:/Users/joche/source/repos/TickTick/TickTick/Content/Sounds/snd_won.wav</SourceFile>
+  <SourceTime>2022-10-10T09:27:08+02:00</SourceTime>
+  <DestFile>C:/Users/joche/source/repos/TickTick/TickTick/Content/bin/DesktopGL/Sounds/snd_won.xnb</DestFile>
+  <DestTime>2026-11-05T18:26:26.0263774+01:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>
