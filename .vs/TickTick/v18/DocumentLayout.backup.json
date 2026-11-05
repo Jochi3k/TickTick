@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\joche\\source\\repos\\TickTick\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|c:\\users\\joche\\source\\repos\\ticktick\\engine\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49E713C9-DBA0-48FE-8EA5-2E41B883D74C}|Engine\\Engine.csproj|solutionrelative:engine\\assetmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\joche\\source\\repos\\ticktick\\ticktick\\ticktick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\ticktick.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|c:\\users\\joche\\source\\repos\\ticktick\\ticktick\\content\\levels\\level11.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9E9D5D39-C5BB-4E73-AC5B-BD944B39D45E}|TickTick\\TickTick.csproj|solutionrelative:ticktick\\content\\levels\\level11.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AssetManager.cs",
+              "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\Engine\\AssetManager.cs",
+              "RelativeDocumentMoniker": "Engine\\AssetManager.cs",
+              "ToolTip": "C:\\Users\\joche\\source\\repos\\TickTick\\Engine\\AssetManager.cs",
+              "RelativeToolTip": "Engine\\AssetManager.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwDkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T17:36:05.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "TickTick.cs",
+              "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\TickTick.cs",
+              "RelativeDocumentMoniker": "TickTick\\TickTick.cs",
+              "ToolTip": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\TickTick.cs",
+              "RelativeToolTip": "TickTick\\TickTick.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-05T17:35:27.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LevelLoading.cs",
               "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\LevelLoading.cs",
               "RelativeDocumentMoniker": "TickTick\\LevelLoading.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "TickTick\\LevelLoading.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAIwG0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T17:22:15.188Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T17:22:15.188Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "level11.txt",
               "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\Content\\Levels\\level11.txt",
               "RelativeDocumentMoniker": "TickTick\\Content\\Levels\\level11.txt",
@@ -64,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RocketRed.cs",
               "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\LevelObjects\\Enemies\\RocketRed.cs",
               "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Enemies\\RocketRed.cs",
@@ -72,12 +105,11 @@
               "RelativeToolTip": "TickTick\\LevelObjects\\Enemies\\RocketRed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T17:12:18.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T17:12:18.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AnimatedGameObject.cs",
               "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\Engine\\Animation\\AnimatedGameObject.cs",
               "RelativeDocumentMoniker": "Engine\\Animation\\AnimatedGameObject.cs",
@@ -85,12 +117,11 @@
               "RelativeToolTip": "Engine\\Animation\\AnimatedGameObject.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAA5wBEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T17:10:57.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T17:10:57.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Rocket.cs",
               "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\LevelObjects\\Enemies\\Rocket.cs",
               "RelativeDocumentMoniker": "TickTick\\LevelObjects\\Enemies\\Rocket.cs",
@@ -98,12 +129,11 @@
               "RelativeToolTip": "TickTick\\LevelObjects\\Enemies\\Rocket.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAqwDkAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T13:52:48.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T13:52:48.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Level.cs",
               "DocumentMoniker": "C:\\Users\\joche\\source\\repos\\TickTick\\TickTick\\Level.cs",
               "RelativeDocumentMoniker": "TickTick\\Level.cs",
@@ -111,8 +141,7 @@
               "RelativeToolTip": "TickTick\\Level.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAlwEcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-05T13:43:17.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-11-05T13:43:17.732Z"
             }
           ]
         }
